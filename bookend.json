@@ -1,0 +1,27 @@
+﻿{
+  "bookendVersion": "v1.0",
+  "components": [
+    {
+      "type": "heading",
+      "text": ""
+    },
+    {
+      "type": "small",
+      "title": "facebook.com/sergioosipov",
+      "url": "https://www.facebook.com/sergioosipov",
+      "image": "assets/flogo.png"
+    },
+    {
+      "type": "small",
+      "title": "linkedin.com/in/sergiyosipov",
+      "url": "https://www.linkedin.com/in/sergiyosipov",
+      "image": "assets/linkedinlogo.png"
+    },
+    {
+      "type": "small",
+      "title": "sergiy@osypov.com",
+      "url": "mailto:sergiy@osypov.com",
+      "image": "assets/gmail.svg"
+    }
+  ]
+}
