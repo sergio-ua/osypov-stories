@@ -6,6 +6,13 @@
     <title>Sergiy Osypov</title>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+    <style>
+      #cover {
+        color: white;
+        font-family: "Lucida Console", Monaco, monospace;
+      }
+    </style>
   </head>
   <body>
     <amp-story standalone
@@ -14,21 +21,29 @@
         publisher-logo-src="assets/36.png"
         poster-portrait-src="assets/osypov-ocean-big.jpg">
 
-      <amp-story-page id="cover">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/osypov-ocean-big.jpg" width="720" height="1280" layout="responsive"></amp-img>
+      <amp-story-page id="cover" auto-advance-after="3s">
+        <amp-story-grid-layer template="thirds">
+          <h1 grid-area="upper-third">Sergiy Osypov</h1>
+          <h3 grid-area="middle-third">Software Engineer</h3>
+          <h4 grid-area="lower-third">Born in Ukraine, living in the US</h4>
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <amp-story-page id="singapore">
+      <amp-story-page id="tennis" auto-advance-after="3s">
         <amp-story-grid-layer template="fill">
-          <amp-img src="assets/singapore.jpg" width="720" height="1280" layout="responsive"></amp-img>
+          <amp-img src="assets/tennis.jpg" width="720" height="1080" layout="responsive"></amp-img>
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <amp-story-page id="tennis">
+      <amp-story-page id="ocean" auto-advance-after="3s">
         <amp-story-grid-layer template="fill">
-          <amp-img src="assets/tennis.jpg" width="720" height="1280" layout="responsive"></amp-img>
+          <amp-img src="assets/osypov-ocean-big.jpg" width="720" height="1080" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="singapore" auto-advance-after="3s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/singapore.jpg" width="720" height="1080" layout="responsive"></amp-img>
         </amp-story-grid-layer>
       </amp-story-page>
 
